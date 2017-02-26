@@ -3,12 +3,13 @@ layout: post
 type: blog
 title:  "Welcome to Six Labors!"
 date:   2017-02-26 12:52:00
-categories: update shapes fonts
+tags: [shapes, fonts]
+category: updates
 author: tocsoft
 snippet: A start of things to come.
 ---
 
-Welcome to Six Labors. Six Labors is a group of related open source projects huddling together for safty.
+Six Labors is a group of related open source projects huddling together for safty.
 
 As of today we have 2 main projects.
 
