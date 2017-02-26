@@ -1,0 +1,13 @@
+# Social accounts - Remove the '#' to enable
+
+
+# Footer links
+footer:
+ - { name: github, link: 'https://github.com/sixlabors' }
+
+
+# Social sharing options
+share:
+ - { name: facebook }
+ - { name: google }
+ # - { name: twitter, via: '[twitter_username]' }

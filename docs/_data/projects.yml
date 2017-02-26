@@ -1,0 +1,8 @@
+- id: SixLabors.Shapes
+  title: Shapes
+  url: http://mcperson-person-not-me.com
+  cover-img: assets/img/projects/proj1/cover.png
+- id: SixLabors.Fonts
+  title: Fonts
+  url: http://pivot-not-really-a-website.io
+  cover-img: assets/img/projects/proj2/cover.png

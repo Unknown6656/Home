@@ -1,0 +1,19 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title style="font-family: serif;">{% if page.title || post.title %} {{ page.title }} {{post.title}} &mdash; {% endif %}{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:site_name" content="{{site.title}} | {{site.description}}">
+    <meta property="og:description" content="{%if page.snippet %}{{page.snippet}} {% else %} {{ site.description }} {% endif %}">
+    <meta property="og:type" content="{{ page.type }}">
+    <meta property="og:title" content="{% if page.type == 'blog'%} {{page.title}} {% endif %}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.url }}">
+  <meta name="theme-color" content="#fafafa">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
