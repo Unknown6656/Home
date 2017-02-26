@@ -1,8 +1,8 @@
 - id: SixLabors.Shapes
   title: Shapes
-  url: http://mcperson-person-not-me.com
-  cover-img: assets/img/projects/proj1/cover.png
+  url: https://github.com/SixLabors/Shapes
+  cover-img: https://raw.githubusercontent.com/SixLabors/Shapes/master/icons/icon.png
 - id: SixLabors.Fonts
   title: Fonts
-  url: http://pivot-not-really-a-website.io
-  cover-img: assets/img/projects/proj2/cover.png
+  url: https://github.com/SixLabors/Fonts
+  cover-img: https://raw.githubusercontent.com/SixLabors/Fonts/master/icons/icon.png

@@ -28,13 +28,12 @@
     color: $white;
   }
 
-  .avatar {
-    padding-top: em(50px);
-    padding-bottom: em(50px);
-    
-    img {
-      width: em(100px);
-    }
+  .avatar {    
+    background: #3e3e3e;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    padding: 1em;
   }
 
   .intro-text {

@@ -13,7 +13,7 @@ type: home
 		{% if site.data.projects %}
 
 			{% for project in site.data.projects %}
-				<li class="work-tile" style="background-image: url( {{site.url}}/{{ project.cover-img }});">
+				<li class="work-tile" style="background-image: url( {{ project.cover-img }});">
 					<div class="tile-text">
 						<span class="work-item-title">{{ project.title }}</span>
 						<span class="work-item-client">{{ project.client }}</span>
