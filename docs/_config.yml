@@ -17,6 +17,10 @@ url: "http://sixlabors.com"
 # ==========
 # tagManagerID: GTM-[ID] # Your tag manager container ID
 
+# Google Analytics ID : use Google analytics to track visitors
+# ==========
+googleAnalyticsID: UA-92691012-1
+
 # Disqus settings: For comment support
 # ==========
 # disqus_shortname: [shortname] # Disqus shortname
@@ -41,3 +45,7 @@ paginate_path: "blog/:num"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+    projects:
+        output: true
