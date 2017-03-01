@@ -63,7 +63,7 @@ function work_toggle()
       e.preventDefault();
       var $this = $(this),
       linkTo = $this.attr('href'),
-      site_url = $this.attr('data-siteurl');
+      site_url = $this.attr('data-url');
       console.log("Getting projects...", linkTo, site_url);
 
       // Get projects
@@ -76,7 +76,7 @@ function work_toggle()
 function get_project(url, name) {
 	
 	var loader = '<div class="loader"><div class="innerLoader"></div></div>',
-		project = url + "/projects/" + name + ".html";
+		project = url ;
 
 	$('.work-container').html(loader);
 

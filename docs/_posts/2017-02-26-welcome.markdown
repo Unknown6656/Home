@@ -17,7 +17,7 @@ As of today we have 2 main projects.
 
 Shapes is a 2D polygon manipulation and interogation library written in c# and targets .netstandard 1.1 making it entirely crossplatform and will run on everything from android phone, to windows desktops, to linxus servers and everything in between. 
 
-Shapes is currently still in alpha but is being used by [ImageShape][imagesharp]  for is line and vector drawing code.
+Shapes is currently still in alpha but is being used by [ImageSharp][imagesharp]  for is line and vector drawing code.
 
 
 ## [Fonts](http://fonts.sixlabors.com/)
@@ -26,7 +26,7 @@ Fonts is an true type/woff compatible font loading library written in c# and tar
 
 Fonts provides text measuring, layout, and abstracted rendering systems. You just need to plugin your own raserizer (like ImageSharp)
 
-Fonts is currently still in alpha but is about to be used by [ImageShape][imagesharp] for is text drawing code. (this is still in progress)
+Fonts is currently still in alpha but is about to be used by [ImageSharp][imagesharp] for is text drawing code. (this is still in progress)
 
 
 [imagesharp]: https://github.com/jimBobSquarePants/ImageSharp "ImageSharp"

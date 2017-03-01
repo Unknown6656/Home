@@ -1,0 +1,14 @@
+<div id="{{project.id | slugify}}" class="work">
+	<span class="close icon-font icon-close"><svg class="icon icon-cross"><use xlink:href="#icon-cross"></use></svg></span>
+	<div class="work-header-container">
+		<div class="work-header">
+		<a href="{{ page.docs-url }}" target="_blank" class="work-link">View the docs</a>
+		<a href="{{ page.source-url }}" target="_blank" class="work-link">View the code</a>
+			<a href="{{ page.site-url }}" target="_blank" class="work-title">{{ page.title }}</a>
+		</div>
+		
+	</div>	
+	<div class="row">
+		{{ content }}
+	</div>
+</div>

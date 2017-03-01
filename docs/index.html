@@ -5,49 +5,22 @@ type: home
 <!-- About me section -->
 <section id="projects" class="section section-about">
 	<div class="row centered">
-    <div class="centered-content">
-      <div class="avatar">{% include avatar.html %}</div>
+    	<div class="centered-content">
+      		<div class="avatar">
+				  <img src="{{site.url}}/assets/img/src/logo.svg" alt="Avatar">
+			  </div>
 
-      <h1 class="tc">Six Labors - Opens source tools.</h1>
-      	<ul class="work-grid">
-		{% if site.data.projects %}
+      		<h1 class="tc">Six Labors - Open source tools.</h1>
+      	
+        	{% include projects.html %}
 
-			{% for project in site.data.projects %}
-				<li class="work-tile" style="background-image: url( {{ project.cover-img }});">
-					<div class="tile-text">
-						<span class="work-item-title">{{ project.title }}</span>
-						<span class="work-item-client">{{ project.client }}</span>
-					</div>
-          <a href="#{{project.id}}" data-siteurl="{{site.url}}" class="button work-tile-link"><svg class="icon icon-eye"><use xlink:href="#icon-eye"></use></svg></a>
-				</li>
-				{% assign projects_count = forloop.length %}
-			{% endfor %}
-			
-			{% if projects_count < 4 %}
-				<li class="work-tile-placeholder row work-tile-{{ projects_count }}">
-				<!-- <li class="work-tile-placeholder row" style="width: {{ projects_count | times: 25 | minus: 100 | times: -1 }}%;"> -->
-					<span class="placeholder">Want to help out?</span>
-					<p class="placeholder small">Head over to <a href="https://github.com/sixlabors/">github</a> and check out the issues.</p>
-				</li>
-			{% endif %}
-
-		{% else %}
-			<li class="work-tile-placeholder row work-tile-full">
-					<span class="placeholder">Want to help out?</span>
-					<p class="placeholder small">DropHead over to <a href="https://github.com/sixlabors/">github</a> and check out the issues.</p>
-			</li>
-		{% endif %}
-		</ul>
-        
-      </div>
+      	</div>
 				
 	</div>
-	<div class="row">
-	
-<div class="work-container">
+	<div class="row">	
+		<div class="work-container">
 			<!-- Insert project -->
-		</div>
-	
+		</div>	
 	</div>
 </section>
 
