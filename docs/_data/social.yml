@@ -10,4 +10,4 @@ footer:
 share:
  - { name: facebook }
  - { name: google }
- # - { name: twitter, via: '[twitter_username]' }
+ - { name: twitter } #, via: '[twitter_username]' }
