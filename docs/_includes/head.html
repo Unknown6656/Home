@@ -7,11 +7,12 @@
     <meta property="og:site_name" content="{{site.title}} | {{site.description}}">
     <meta property="og:description" content="{%if page.snippet %}{{page.snippet}} {% else %} {{ site.description }} {% endif %}">
     <meta property="og:type" content="{{ page.type }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:title" content="{% if page.type == 'blog'%} {{page.title}} {% endif %}">
 {% if page.image %}
     <meta property="og:image" content="{{page.image  | prepend: site.url }}">
 {% else %}
-    <meta property="og:image" content="{{ "/assets/src/logo.svg" | prepend: site.url }}">
+    <meta property="og:image" content="{{ "/assets/img/src/logo.png" | prepend: site.url }}">
 {% endif %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
