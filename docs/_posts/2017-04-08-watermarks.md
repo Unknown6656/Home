@@ -5,6 +5,7 @@ title:  "Drawing a textual watermark on images using ImageSharp and SixLabors.Fo
 date:   2017-04-08 09:53:00
 tags: [fonts, ImageSharp, tips]
 author: tocsoft
+image: "/assets/posts/2017-04-08-watermarks/small_scaled.jpg"
 snippet: "Tips on using SixLabors.Fonts and ImageSharp"
 ---
 
