@@ -1,0 +1,15 @@
+{
+    "language": "en_US",
+    "documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "statusBarIndicator": true,
+    "suggestionsInHints": true,
+    "ignoreWords": [
+        "ImageSharp",
+        "tocsoft"
+    ],
+    "ignoreRegExps": []
+}
